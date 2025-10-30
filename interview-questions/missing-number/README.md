@@ -23,7 +23,6 @@ Output: 13
 - **Edge Cases**: What about empty arrays? Missing first/last element? No missing number?
 - **Return Value Design**: Should the function return the number directly or use a pointer? How to indicate "no missing"?
 - **Input Validation**: Always check for NULL pointers and invalid sizes.
-- **Const Correctness**: Input array should be `const` since we don't modify it.
 - **Integer Overflow**: Use `start + (end - start) / 2` instead of `(start + end) / 2`.
 
 ## Follow-up Questions
@@ -32,7 +31,6 @@ Output: 13
 2. **What if there are multiple missing numbers?** How would the approach change?
 3. **What if the array is not sorted?** Would you sort first or use a different approach?
 4. **Memory constraints**: What if you can't use extra space? (This solution already uses O(1))
-5. **Alternative approaches**: Can you solve it using sum formula? What are the trade-offs?
 
 ## Red Flags to Watch For
 
@@ -42,7 +40,6 @@ Output: 13
 - **Magic numbers** without explanation (e.g., hardcoded assumptions)
 - **No input validation** or assumptions not stated
 - **Poor variable naming** (e.g., `i`, `j`, `k` without context)
-- **Off-by-one errors** in binary search implementation
 - **Not testing the solution** with provided examples
 
 ## Complexity Analysis
