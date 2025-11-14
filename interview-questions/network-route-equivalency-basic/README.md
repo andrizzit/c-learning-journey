@@ -83,17 +83,17 @@ Explanation: nodeY is not equivalent to nodeQ through any chain.
 
 ### Phase 1: Direct Equivalence (Current)
 
-✓ Basic path length validation  
-✓ Direct node equivalence checking  
-✓ Bidirectional pair matching  
-✓ Identity handling (node equals itself)
+- Basic path length validation
+- Direct node equivalence checking
+- Bidirectional pair matching
+- Identity handling (node equals itself)
 
 ### Phase 2: Transitive Equivalence (Next)
 
-☐ Implement Union-Find data structure  
-☐ Map strings to integer IDs  
-☐ Build equivalence classes  
-☐ Query class membership
+- Implement Union-Find data structure
+- Map strings to integer IDs
+- Build equivalence classes
+- Query class membership
 
 ## Complexity Analysis
 
