@@ -64,7 +64,7 @@ void find_decompositions(const char *remaining, const char *original,
     }
 }
 
-void find_composite_sequences()
+void find_composite_sequences(void)
 {
     for (int i = 0; i < sequence_count; i++)
     {
@@ -73,7 +73,7 @@ void find_composite_sequences()
     }
 }
 
-int main()
+int main(void)
 {
     strcpy(sequences[sequence_count++], "ATGC");
     strcpy(sequences[sequence_count++], "AT");
